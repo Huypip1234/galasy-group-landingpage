@@ -1,19 +1,19 @@
-import './globals.css'
-import type { Metadata } from 'next'
+import "./globals.css";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Galasy Group',
-  description: 'Tối ưu hóa hiệu suất cuộc sống của bạn',
-}
+  title: "Galasy Group",
+  description: "Tối ưu hóa hiệu suất cuộc sống của bạn",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
       <body>{children}</body>
     </html>
-  )
+  );
 }

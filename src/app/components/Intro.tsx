@@ -53,10 +53,18 @@ const Intro = () => {
         {/* slide 1 */}
         <div className="bg-[url('/images/intro-page/1.png')] h-[calc(100vh-3.6rem)] bg-no-repeat bg-cover bg-center">
           <div className="lg:px-[6rem] px-[24px] md:mt-[10rem] mt-[5rem]">
-            <h1 className="text-[#F68D1D] text-[56px] font-[700] ">
+            <h1
+              className="text-[#F68D1D] text-[56px] font-[700] "
+              data-aos="fade-right"
+              data-aos-duration="700"
+            >
               Galasy Group
             </h1>
-            <h2 className="text-[24px] font-[400] text-[#1F1F1F] mt-[28px] leading-9">
+            <h2
+              className="text-[24px] font-[400] text-[#1F1F1F] mt-[28px] leading-9"
+              data-aos="fade-right"
+              data-aos-duration="900"
+            >
               Tối ưu hóa hiệu suất cuộc sống của bạn. <br />
               Tốt hơn một chút, hiệu quả hơn một chút, tối hưu hơn 1 chút.
             </h2>
@@ -66,7 +74,8 @@ const Intro = () => {
         {/* slide 2 */}
         <div className="bg-[url('/images/intro-page/2.png')] h-[calc(100vh-3.6rem)] bg-no-repeat bg-cover bg-center">
           <div className="lg:px-[6rem] px-[24px] md:mt-[10rem] mt-[5rem]">
-            <h1 className="text-[#F68D1D] text-[56px] font-[700] ">Mission</h1>
+            <h1 className="text-[#F68D1D] text-[56px] font-[700] " data-aos="fade-right"
+              data-aos-duration="500">Mission</h1>
             <div className="text-[24px] font-[400] text-white mt-[28px] leading-9 xl:w-[858px] lg:w-[600px]">
               <p>
                 Galasy Group – Sứ mệnh của chúng tôi là trao cho mọi người và
