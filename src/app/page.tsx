@@ -7,6 +7,9 @@ import "aos/dist/aos.css";
 import FindTalent from "./components/FindTalent";
 import Solution from "./components/Solution";
 import Loading from "./components/Loading";
+import Feature from "./components/Feature";
+import Flow from "./components/Flow";
+import Footer from "./components/Footer";
 
 export default function Home() {
   useEffect(() => {
@@ -29,10 +32,13 @@ export default function Home() {
         <>
           <Header />
           <Intro />
-          <section id="main-content">
+          <section id="main-content" className="max-w-[1920px] mx-auto">
             <FindTalent />
             <Solution />
+            <Feature />
+            <Flow />
           </section>
+          <Footer />
         </>
       )}
     </main>
