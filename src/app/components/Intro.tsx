@@ -107,7 +107,7 @@ const Intro = () => {
       <div>
         {/* page number */}
         <div
-          className={`${pageNumber.color} flex flex-col items-center absolute right-[5rem] top-[50%] translate-y-[-50%]  max-lg:hidden`}
+          className={`${pageNumber.color} ${pageNumber.number=="01" && "max-2xl:!text-white"} flex flex-col items-center absolute right-[5rem] top-[50%] translate-y-[-50%]  max-lg:hidden`}
         >
           <p className=" font-[700] text-[24px]">{pageNumber.number}</p>
           <div className="bg-[#848484] h-[86px] w-[1px]"></div>
