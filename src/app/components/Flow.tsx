@@ -143,7 +143,7 @@ const Flow = () => {
   const [active, setActive] = useState(0);
 
   const slideList = (
-    <div className="flex flex-col ">
+    <div className="flex flex-col">
       <div className="flex gap-[24px] items-center max-lg:items-start">
         {carouselData.map((item) => (
           <div key={item.id} className="mt-[48px]">
@@ -174,13 +174,13 @@ const Flow = () => {
 
       {/* Line */}
       <div className="mt-[60px] relative">
-        <div className="bg-[#4A4A4A] text-[#4A4A4A] w-full h-[1px]"></div>
+        <div className="bg-[#4A4A4A] text-[#4A4A4A] w-full h-[1px] mt-[-0.3rem]"></div>
 
         <ul className="mb-[1rem] absolute top-0 flex lg:gap-[52rem] sm:gap-[22rem] gap-[19rem]">
           {carouselData.map((item) => (
             <li
-              className={`ml-[1rem] mt-[-2.7rem] ${
-                active !== item.id && "!mt-[-1.6rem]"
+              className={`ml-[1rem] mt-[-3.1rem] ${
+                active !== item.id && "!mt-[-2rem]"
               }`}
               key={item.id}
             >
