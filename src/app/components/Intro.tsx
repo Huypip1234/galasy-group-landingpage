@@ -54,7 +54,7 @@ const Intro = () => {
         <div className="bg-[url('/images/intro-page/1.png')] h-[calc(100vh-3.6rem)] bg-no-repeat bg-cover bg-center">
           <div className="lg:px-[6rem] px-[24px] md:mt-[10rem] mt-[5rem]">
             <h1
-              className="text-[#F68D1D] text-[56px] font-[700] "
+              className="text-[#F68D1D] text-[56px] font-[700] max-sm:text-[45px]"
               data-aos="fade-right"
               data-aos-duration="700"
             >
