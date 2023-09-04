@@ -2,6 +2,7 @@ import React from "react";
 import IconPhone from "../assets/icons/IconPhone";
 import IconEmail from "../assets/icons/IconEmail";
 import IconNetWork from "../assets/icons/IconNetwork";
+import IconArrowUp from "../assets/icons/IconArrowUp";
 
 const Footer = () => {
   const contactList = [
@@ -15,7 +16,7 @@ const Footer = () => {
   ];
 
   return (
-    <div className="px-[120px] max-2xl:px-[60px] max-lg:px-[24px] pt-[48px] pb-[24px] bg-[#393939] mt-[80px]">
+    <div className="px-[120px] relative max-2xl:px-[60px] max-lg:px-[24px] pt-[48px] pb-[24px] bg-[#393939] mt-[80px]">
       <div className="flex justify-between items-center flex-wrap gap-[3rem] max-xl:flex-col max-xl:items-start">
         {/* Ifo */}
         <div>
@@ -71,6 +72,15 @@ const Footer = () => {
         </p>
       </div>
       {/* End Copyright */}
+
+      {/* Button Up */}
+      <a
+        href="#top"
+        className="absolute hover:scale-[110%] transition-all px-[10px] bg-[rgba(255,255,255,0.10)] flex items-center justify-center border border-solid border-[#F68D1D] bottom-[6rem] right-[1.5rem] h-[48px] w-[48px]"
+      >
+        <IconArrowUp />
+      </a>
+      {/* End Button Up */}
     </div>
   );
 };

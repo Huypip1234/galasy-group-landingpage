@@ -16,6 +16,9 @@ import Unrivaled from "./components/Unrivaled";
 import LeaderShip from "./components/Leadership";
 import Roadmap from "./components/Roadmap";
 import Join from "./components/Join";
+import Model from "./components/Model";
+import Member from "./components/Member";
+import Story from "./components/Story";
 
 export default function Home() {
   useEffect(() => {
@@ -31,7 +34,7 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
 
   return (
-    <main className="">
+    <main className="" id="top">
       {loading ? (
         <Loading />
       ) : (
@@ -47,6 +50,9 @@ export default function Home() {
             <Advantage />
             <Unrivaled />
             <LeaderShip />
+            <Story />
+            <Model />
+            <Member />
             <Roadmap />
             <Join />
           </section>
