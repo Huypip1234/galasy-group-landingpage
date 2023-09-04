@@ -30,7 +30,7 @@ const LeaderShip = () => {
   const slideList = (
     <div className="flex gap-[24px]">
       {/* Slide1 */}
-      <div>
+      <div className="">
         <div
           className="sm:w-[402px] w-[302px] sm:h-[398px] h-[300px] group overflow-hidden relative"
           ref={ref}
@@ -45,7 +45,7 @@ const LeaderShip = () => {
 
           {/* Title and desc */}
           <div className="absolute group-hover:h-[185px] group-hover:max-sm:h-full sm:h-[118px] transition-all duration-300 bottom-0 left-0 w-full px-[16px] py-[24px] flex flex-col justify-start bg-[linear-gradient(180deg,rgba(0,0,0,0.00)_0%,_rgba(0,0,0,0.80)_71.01%)] group-hover:bg-[#F68D1D] group-hover:bg-none">
-            <div className="text-[24px] text-white font-[600] uppercase mb-[10px]">
+            <div className="sm:text-[24px] text-[19px] text-white font-[600] uppercase mb-[10px]">
               Giải pháp tất cả trong một
             </div>
             <p className="text-white text-[16px] font-[400] hidden group-hover:block">
@@ -63,7 +63,7 @@ const LeaderShip = () => {
         <div key={item.id}>
           <div className="sm:w-[402px] w-[302px] relative">
             <img src={item.img} alt="err" />
-            <div className="text-[24px] h-[118px] text-white font-[600] uppercase w-full absolute bottom-0 left-0 px-[16px] py-[24px] flex items-start bg-[linear-gradient(180deg,rgba(0,0,0,0.00)_0%,_rgba(0,0,0,0.80)_71.01%)]">
+            <div className="sm:text-[24px] text-[19px] h-[118px] max-sm:h-[90px]  text-white font-[600] uppercase w-full absolute bottom-0 left-0 px-[16px] py-[24px] flex items-start bg-[linear-gradient(180deg,rgba(0,0,0,0.00)_0%,_rgba(0,0,0,0.80)_71.01%)]">
               {item.title}
             </div>
           </div>

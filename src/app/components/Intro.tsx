@@ -61,7 +61,7 @@ const Intro = () => {
               Galasy Group
             </h1>
             <h2
-              className="text-[24px] font-[400] text-[#1F1F1F] mt-[28px] leading-9"
+              className="text-[24px]  font-[400] text-[#1F1F1F] mt-[28px] leading-9"
               data-aos="fade-right"
               data-aos-duration="900"
             >
@@ -73,10 +73,10 @@ const Intro = () => {
         {/* End Slide 1 */}
         {/* slide 2 */}
         <div className="bg-[url('/images/intro-page/2.png')] h-[calc(100vh-3.6rem)] bg-no-repeat bg-cover bg-center">
-          <div className="lg:px-[6rem] px-[24px] md:mt-[10rem] mt-[5rem]  max-w-[1920px] mx-auto">
+          <div className="lg:px-[6rem] px-[24px] md:mt-[10rem] mt-[3rem]  max-w-[1920px] mx-auto">
             <h1 className="text-[#F68D1D] text-[56px] font-[700] " data-aos="fade-right"
               data-aos-duration="500">Mission</h1>
-            <div className="text-[24px] font-[400] text-white mt-[28px] leading-9 xl:w-[858px] lg:w-[600px]">
+            <div className="sm:text-[24px] text-[16px] font-[400] text-white sm:mt-[28px] mt-[10px] leading-9 xl:w-[858px] lg:w-[600px]">
               <p>
                 Galasy Group – Sứ mệnh của chúng tôi là trao cho mọi người và
                 mọi tổ chức trên thế giới những sản phẩm công nghệ số mạnh mẽ để
@@ -93,8 +93,8 @@ const Intro = () => {
         {/* End Slide 2 */}
         {/* slide 3 */}
         <div className="bg-[url('/images/intro-page/3.png')] h-[calc(100vh-3.6rem)] bg-no-repeat bg-cover bg-center">
-          <div className="lg:px-[6rem] px-[24px] md:mt-[10rem] mt-[5rem] max-w-[1920px] mx-auto">
-            <p className="text-white text-[56px] font-[700] xl:w-[864px] lg:w-[600px] leading-[4.8rem]">
+          <div className="lg:px-[6rem] px-[24px] md:mt-[10rem] mt-[3rem] max-w-[1920px] mx-auto">
+            <p className="text-white sm:text-[56px] text-[32px] font-[700] xl:w-[864px] lg:w-[600px] sm:leading-[4.8rem]">
               Nỗi đau mà các doanh nghiệp phải đối mặt khi quản lý công việc và
               lao động tự do
             </p>
