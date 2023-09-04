@@ -76,7 +76,7 @@ const Footer = () => {
       {/* Button Up */}
       <a
         href="#top"
-        className="absolute hover:scale-[110%] transition-all px-[10px] bg-[rgba(255,255,255,0.10)] flex items-center justify-center border border-solid border-[#F68D1D] bottom-[6rem] right-[1.5rem] h-[48px] w-[48px]"
+        className="absolute z-[50] hover:scale-[110%] transition-all px-[10px] bg-[rgba(255,255,255,0.10)] flex items-center justify-center border border-solid border-[#F68D1D] bottom-[2rem] right-[1.5rem] h-[48px] w-[48px]"
       >
         <IconArrowUp />
       </a>
