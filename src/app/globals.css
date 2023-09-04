@@ -4,6 +4,20 @@
   font-family: "Sarabun", sans-serif;
 }
 
+::-webkit-scrollbar {
+  overflow: overlay;
+  scrollbar-width: thin;
+  @apply h-2 w-1 rounded-lg;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 rounded-lg;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

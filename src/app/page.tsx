@@ -10,6 +10,12 @@ import Loading from "./components/Loading";
 import Feature from "./components/Feature";
 import Flow from "./components/Flow";
 import Footer from "./components/Footer";
+import TakeTheChance from "./components/TakeTheChance";
+import Advantage from "./components/Advantage";
+import Unrivaled from "./components/Unrivaled";
+import LeaderShip from "./components/Leadership";
+import Roadmap from "./components/Roadmap";
+import Join from "./components/Join";
 
 export default function Home() {
   useEffect(() => {
@@ -37,6 +43,12 @@ export default function Home() {
             <Solution />
             <Feature />
             <Flow />
+            <TakeTheChance />
+            <Advantage />
+            <Unrivaled />
+            <LeaderShip />
+            <Roadmap />
+            <Join />
           </section>
           <Footer />
         </>

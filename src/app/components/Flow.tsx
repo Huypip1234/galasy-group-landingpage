@@ -253,7 +253,7 @@ const Flow = () => {
           {/* Right Content */}
           <div
             className="flex max-w-[828px] gap-[24px] items-center max-lg:mt-[2rem]"
-            data-aos="fade-left"
+            data-aos="fade-down"
             data-aos-duration="1000"
           >
             <div className="flex flex-col gap-[24px]">

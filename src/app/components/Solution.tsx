@@ -3,7 +3,7 @@ import IconArrow from "../assets/icons/IconArrow";
 import IconArrowDisable from "../assets/icons/IconArrowDisable";
 import Carousel from "./customize/Carousel";
 
-const FindTalent = () => {
+const Solution = () => {
   const carouselData = [
     {
       id: 0,
@@ -112,7 +112,7 @@ const FindTalent = () => {
 
   return (
     <div className="mt-[90px] xl:pl-[120px] lg:pl-[70px] pl-[24px]">
-      <div className="xl:pr-[120px] lg:pr-[70px] pr-[24px]">
+      <div className="xl:pr-[120px] lg:pr-[70px] pr-[24px] md:mb-[48px]">
         {/* line */}
         <div className="mb-[24px] relative">
           <hr className="text-[#CFCFC] h-[1px]" />
@@ -171,16 +171,8 @@ const FindTalent = () => {
             {/* End Arrow */}
           </div>
 
-          <p
-            className="text-[#4A4A4A] text-[20px] font-[400] mt-[13px] mb-[48px]"
-            data-aos="fade-right"
-            data-aos-duration="900"
-          >
-            Quản lý công việc và lao động tự do trong bối cảnh kinh doanh hiện
-            nay có nhiều sự phức tạp và rào cản
-          </p>
           {/* Arrow Mobile*/}
-          <div className="flex gap-[28px] justify-end mb-[1rem] md:hidden">
+          <div className="flex gap-[28px] justify-end mb-[1rem] mt-[1rem] md:hidden">
             {count == 0 ? (
               <IconArrowDisable className="cursor-pointer" />
             ) : (
@@ -219,4 +211,4 @@ const FindTalent = () => {
   );
 };
 
-export default FindTalent;
+export default Solution;

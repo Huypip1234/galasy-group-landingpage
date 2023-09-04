@@ -3,32 +3,22 @@ import IconArrow from "../assets/icons/IconArrow";
 import IconArrowDisable from "../assets/icons/IconArrowDisable";
 import Carousel from "./customize/Carousel";
 
-const FindTalent = () => {
+const LeaderShip = () => {
   const carouselData = [
     {
       id: 1,
-      img: "/images/find-talen/2.png",
-      title: "Đăng tuyển không hiệu quả",
+      img: "/images/leadership/2.png",
+      title: "Đổi mới",
     },
     {
       id: 2,
-      img: "/images/find-talen/3.png",
-      title: "Thách thức theo dõi hiệu suất",
+      img: "/images/leadership/3.png",
+      title: "Phương pháp tiếp cận lấy khách hàng làm trung tâm",
     },
     {
       id: 3,
-      img: "/images/find-talen/4.png",
-      title: "Độ phức tạp của thanh toán",
-    },
-    {
-      id: 4,
-      img: "/images/find-talen/5.png",
-      title: "Thiếu trách nhiệm",
-    },
-    {
-      id: 5,
-      img: "/images/find-talen/6.png",
-      title: "Cơ hội bị bỏ lỡ",
+      img: "/images/leadership/4.png",
+      title: "",
     },
   ];
 
@@ -38,24 +28,30 @@ const FindTalent = () => {
   const ref = useRef(null) as any;
 
   const slideList = (
-    <>
+    <div className="flex gap-[24px]">
       {/* Slide1 */}
       <div>
-        <div className="sm:w-[402px] w-[302px] h-[453px] group overflow-hidden" ref={ref}>
+        <div
+          className="sm:w-[402px] w-[302px] sm:h-[398px] h-[300px] group overflow-hidden relative"
+          ref={ref}
+        >
           {/* Img */}
-          <img className="object-cover sm:h-[398px] group-hover:h-[260px] group-hover:max-sm:h-[200px] w-full transition-all duration-300" src="/images/find-talen/1.png" alt="err" />
+          <img
+            className="object-cover sm:h-[398px] group-hover:h-[230px] group-hover:max-sm:h-[200px] w-full transition-all duration-300"
+            src="/images/leadership/1.png"
+            alt="err"
+          />
           {/* End img */}
 
           {/* Title and desc */}
-          <div>
-            <p className="uppercase text-[#1F1F1F] text-[24px] font-[600] mt-[24px] mb-[12px]">
-              Giao tiếp vô tổ chức
-            </p>
-            <p className="text-[#4A4A4A] text-[16px] font-[400] hidden group-hover:block">
-              Phối hợp các nhiệm vụ, cập nhật và phản hồi giữa khách hàng và
-              dịch giả tự do thường liên quan đến các email, cuộc trò truyện và
-              tài liệu rải rác. Giao tiếp bị phận mảnh này dẫn đến hiểu nhầm,
-              nhin nhắn bị bỏ lỡ và sự chậm trễ.
+          <div className="absolute group-hover:h-[185px] group-hover:max-sm:h-full sm:h-[118px] transition-all duration-300 bottom-0 left-0 w-full px-[16px] py-[24px] flex flex-col justify-start bg-[linear-gradient(180deg,rgba(0,0,0,0.00)_0%,_rgba(0,0,0,0.80)_71.01%)] group-hover:bg-[#F68D1D] group-hover:bg-none">
+            <div className="text-[24px] text-white font-[600] uppercase mb-[10px]">
+              Giải pháp tất cả trong một
+            </div>
+            <p className="text-white text-[16px] font-[400] hidden group-hover:block">
+              Nền tảng của chúng tôi nổi bật như một giải pháp đầu cuối hoàn
+              chỉnh trong một thị trường với các công cụ phân mảnh và giải pháp
+              một phần.
             </p>
           </div>
           {/* End title and desc */}
@@ -65,36 +61,29 @@ const FindTalent = () => {
 
       {carouselData.map((item) => (
         <div key={item.id}>
-          <div className="sm:w-[402px] w-[302px]">
+          <div className="sm:w-[402px] w-[302px] relative">
             <img src={item.img} alt="err" />
-            <p className="text-[24px] text-[#1F1F1F] font-[600] uppercase mt-[24px]">
+            <div className="text-[24px] h-[118px] text-white font-[600] uppercase w-full absolute bottom-0 left-0 px-[16px] py-[24px] flex items-start bg-[linear-gradient(180deg,rgba(0,0,0,0.00)_0%,_rgba(0,0,0,0.80)_71.01%)]">
               {item.title}
-            </p>
+            </div>
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 
   return (
-    <div className="mt-[90px] xl:pl-[120px] lg:pl-[70px] pl-[24px]">
-      <div className="xl:pr-[120px] lg:pr-[70px] pr-[24px]">
-        {/* line */}
-        <div className="mb-[24px] relative">
-          <hr className="text-[#CFCFC] h-[1px]" />
-          <div className=" absolute left-0 top-[-0.4rem] rounded-[13px] w-[123px] h-[12px] bg-[#F68D1D] "></div>
-        </div>
-        {/* end line */}
-
+    <div className="mt-[40px] xl:pl-[120px] lg:pl-[70px] pl-[24px]">
+      <div className="xl:pr-[120px] lg:pr-[70px] pr-[24px] mb-[24px]">
         {/* Title */}
         <div className="">
           <div className="flex justify-between items-center gap-[5rem]">
             <h3
-              className="md:text-[48px] text-[36px] md:font-[400] font-[500] text-[#1F1F1F] uppercase"
+              className="text-[32px] font-[400] text-[#1F1F1F] uppercase"
               data-aos="fade-right"
               data-aos-duration="700"
             >
-              tìm kiếm tài năng & quản lý công việc truyền thống
+              Market Leadership
             </h3>
             {/* Arrow */}
             <div className="flex gap-[28px] max-md:hidden">
@@ -110,7 +99,7 @@ const FindTalent = () => {
                 />
               )}
 
-              {count === 5 ? (
+              {count === 3 ? (
                 <IconArrowDisable className="cursor-pointer rotate-180" />
               ) : (
                 <IconArrow
@@ -124,15 +113,6 @@ const FindTalent = () => {
             </div>
             {/* End Arrow */}
           </div>
-
-          <p
-            className="text-[#4A4A4A] text-[20px] font-[400] mt-[13px] mb-[48px]"
-            data-aos="fade-right"
-            data-aos-duration="900"
-          >
-            Quản lý công việc và lao động tự do trong bối cảnh kinh doanh hiện
-            nay có nhiều sự phức tạp và rào cản
-          </p>
           {/* Arrow Mobile*/}
           <div className="flex gap-[28px] justify-end mb-[1rem] md:hidden">
             {count == 0 ? (
@@ -147,7 +127,7 @@ const FindTalent = () => {
               />
             )}
 
-            {count === 5 ? (
+            {count === 3 ? (
               <IconArrowDisable className="cursor-pointer rotate-180" />
             ) : (
               <IconArrow
@@ -173,4 +153,4 @@ const FindTalent = () => {
   );
 };
 
-export default FindTalent;
+export default LeaderShip;
